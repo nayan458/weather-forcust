@@ -1,0 +1,23 @@
+.outcard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.proimg{
+    height:15rem !important;
+}
+
+.mycrdemg{
+    height: 15rem;
+}
+.card{
+    width: 19rem;
+}
+@media (min-weidth:700px) {
+    .mycrdemg{
+        height: 10rem;
+    }
+    .card{
+        width: 5rem !;
+    }
+    
+}

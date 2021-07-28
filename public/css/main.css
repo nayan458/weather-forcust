@@ -1,0 +1,255 @@
+button{
+    box-sizing: border-box !important;
+    box-shadow: none !important;
+    /* border: 2px solid red !important; */
+}
+
+.firstcont{
+    /* background-image: url(img/sky\ heigh.png); */
+    background-image: url(../img/sky\ heigh.png);
+    background-repeat: no-repeat;
+    /* border-image: ; */
+    /* margin: 20px; */
+    /* border-image-width: 100vh; */
+    /* padding: 30px; */
+    width: auto;
+    height: 500px;
+    align-items: center; 
+    background-position: right;   
+    background-size:cover;
+    /* background-size:150vh; */
+    /* background-size: contain; */
+
+    }
+.secondcont{
+    /* align-items: center; */
+    position:relative;
+    /* top: 0; */
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    /* padding: 20px; */
+    margin: auto;
+    }
+.thiredcont{
+    color:rgb(253, 215, 0);
+    position:relative;
+    /* align-items: center; */
+    padding-left: 30vh;
+    text-align:start;
+    top: 50%;
+    transform: translateY(-50%);
+      }
+.had{
+    font-size: 30px;
+    /* font-family: Monsieur La Doulaise; */
+    font-family: Great Vibes;
+    /* color: rgb(134, 141, 33); */
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+.cont{
+    margin: 20px 200px;
+    text-align: justify;
+}
+.row{
+    border-radius: 10px;
+    
+}
+.active{
+    display: block;
+    color: coral;
+}
+#FirstLight{
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/download.png);
+}
+/* ------------------------------------------------------------- */
+                        /* start of search button */
+/* ------------------------------------------------------------- */
+/* srcbtn
+        search
+        x */
+#search {
+    position:absolute;
+    /* display: inline; */
+    /* display: block; */
+    /* display: none; */
+    /* opacity: 0%; */
+    width: 100%;
+    height: 70%;
+    left: 20;
+    right: 20;
+    bottom: 0;
+    background-color: rgb(255, 251, 255);
+    /* z-index: 2; */
+    /* border-radius: 20px; */
+    cursor: pointer;
+  }
+
+
+  .search {
+    position:absolute;
+    /* display: none; */
+    /* display: none; */
+    /* display: block;
+    display: none; */
+    /* opacity: 0%; */
+    width: 100%;
+    height: 70%;
+    left: 20;
+    right: 20;
+    bottom: 0;
+    /* background-color: rgba(169, 51, 163, 0.503); */
+    /* z-index: 2; */
+    /* border-radius: 20px; */
+    cursor: pointer;
+  }
+
+  .src{
+    font-size: 40px;
+    font-family: 'Chau Philomene One', sans-serif;
+  }
+
+
+  .src-bar{
+      position: relative;
+      font-family: 'Chau Philomene One', sans-serif;
+      width: 70% ;
+      height: 50px;
+      border: none;
+      background-color: rgba(206, 68, 126, 0) ;
+  }
+
+  #location{
+      border: 1px solid rgba(206, 68, 126, 0.585);
+      background-color: rgba(206, 68, 126, 0.238) ;
+  }
+
+  .fas{
+      font-size: 30px;
+      /* color: rgb(206, 68, 126); */
+  }
+  /************************************/
+  .srcbtn_active{
+    color: rgb(206, 68, 126);
+    background-color: rgba(255, 255, 255, 0);
+  }
+  /************************************/
+
+  #btnn{
+      position: relative;
+      float: right;
+      color: rgb(206, 68, 126);
+  }
+
+  #events{
+    border: 1px solid rgba(206, 68, 126, 0.585);
+    background-color: rgba(206, 68, 126, 0.238) ;
+
+  }
+  #srcbtn-active #srcbtn {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 68px;
+    background: #111;
+}
+
+/* ------------------------------------------------------------- */
+                        /* end of search button */
+/* ------------------------------------------------------------- */
+
+.img{
+    position: relative;
+    width: 100%;
+    height:700px ;
+    image-resolution:1080px;
+
+}
+.over{
+    transition-property: all;
+    font-size: 30px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.topic-head{
+    font-size: 30px;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+    justify-content: space-between;
+}
+
+.footer-item{
+    margin-left: 20px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1059px)
+{
+    .cont{
+        margin: 20px;
+    }
+}
